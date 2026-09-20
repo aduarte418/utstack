@@ -21,10 +21,10 @@ para que detecte el repo (utstack) una vez clonado en htdocs -->
 
     <!-- En cada script de php se incluye la estructura "htmlspecialchars()"
     al imprimir cada variable para evitar amenazas que comprometan 
-    la seguridad del sitio, como XSS (Cross-Site Scripting). Se considera buena práctica
-    para prevenir este tipo de ataques y proteger datos de usuario,
-    ya que podrían robar información delicada de la web,
-    secuestrar sesiones de usuario o comprometer el navegador. -->
+    la seguridad del sitio, como XSS (Cross-Site Scripting). 
+    Se considera buena práctica para prevenir este tipo de ataques
+    y proteger datos de usuario, ya que podrían robar información 
+    delicada de la web, secuestrar sesiones de usuario o comprometer el navegador. -->
 
     <h2>La fecha de hoy es: 
         <?php echo htmlspecialchars($fechaActual = date('d/m/Y')); ?></h2>
